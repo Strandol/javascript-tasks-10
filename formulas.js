@@ -7,74 +7,74 @@ window.formulas = [
         elements: ['fire', 'water'],
 
         // Получаемый элемент
-        result: 'огненная вода'
+        result: 'firewater'
     },
     {
         elements: ['air', 'earth'],
-        result: 'пыль'
+        result: 'dust'
     },
     {
         elements: ['fire', 'earth'],
-        result: 'лава'
+        result: 'lava'
     },
     {
         elements: ['air', 'water'],
-        result: 'пар'
+        result: 'steam'
     },
     {
         elements: ['earth', 'water'],
-        result: 'болото'
+        result: 'swamp'
     },
     {
         elements: ['fire', 'dust'],
-        result: 'пепел'
+        result: 'ash'
     },
     {
         elements: ['swamp', 'energy'],
-        result: 'жизнь'
+        result: 'life'
     },
     {
         elements: ['fire', 'energy'],
-        result: 'плазма'
+        result: 'plasma'
     },
     {
         elements: ['fire', 'earth', 'water'],
-        result: 'камень'
+        result: 'stone'
     },
     {
         elements: ['air', 'energy'],
-        result: 'шторм'
+        result: 'storm'
     },
     {
         elements: ['earth', 'water', 'swamp', 'energy'],
-        result: 'бактерия'
+        result: 'bakteria'
     },
     {
         elements: ['swamp', 'energy', 'stone'],
-        result: 'яйцо'
+        result: 'egg'
     },
     {
         elements: ['fire', 'dust', 'life'],
-        result: 'призрак'
+        result: 'ghost'
     },
     {
         elements: ['fire', 'stone'],
-        result: 'металл'
+        result: 'metall'
     },
     {
         elements: ['air', 'stone'],
-        result: 'песок'
+        result: 'sand'
     },
     {
         elements: ['water', 'life'],
-        result: 'трава'
+        result: 'grass'
     },
     {
         elements: ['air', 'swamp', 'energy', 'stone'],
-        result: 'птица'
+        result: 'bird'
     },
     {
         elements: ['sourcream', 'milk', 'life'],
-        result: 'котик'
+        result: 'cat'
     }
 ];

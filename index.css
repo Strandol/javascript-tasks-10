@@ -1,1 +1,203 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
+html
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #272727;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+.wrapper
+{
+    display: flex;
+    flex-direction: row;
+    background: url('src/img/bg2.jpg');
+    background-size: 100% 100%;
+    height: 100%;
+}
+
+.ingredients
+{
+    width: 220px;
+    text-align: left;
+    background: url('src/img/bg1.png');
+    background-size: 100% 100%;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+}
+
+input[id="ingredients_field"]
+{
+    width: 90%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: #272727;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 30px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+input[id="ingredients_field"]:focus
+{
+    border: 2px solid #f0a71b;
+}
+
+.ingredients__element
+{
+    height: 70px;
+    margin: 5px;
+}
+
+.ingredients__element__img
+{
+    vertical-align: middle;
+    margin-right: 5px;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.ingredients__element__label
+{
+    display: inline-block;
+    text-align: center;
+    margin: 0;
+}
+
+.field
+{
+    position: relative;
+    flex-grow: 5;
+}
+
+.field__ingredients
+{
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+}
+
+.field__ingredients img
+{
+    left: 50%;
+}
+
+.field__result
+{
+    margin-bottom: 10px;
+}
+
+.field__ingredient
+{
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.hideElement
+{
+    display: none;
+}
+
+.finalElement
+{
+    display: inline;
+}
+
+.finalElement__label
+{
+    text-align: center;
+    margin: 0;
+}
+
+.finalElement__arrowDown
+{
+    font-weight: bold;
+    font-size: 70px;
+    color: green;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.finalElement__img
+{
+    margin-bottom: 10px;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.ingredient
+{
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.ingredient__img
+{
+    vertical-align: middle;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.ingredient__label
+{
+    text-align: center;
+    margin: 0;
+}
+
+.ingredient__plus
+{
+    font-size: 30px;
+    vertical-align: middle;
+    color: red;
+    margin: 0;
+    display: inline-block;
+}
+
+input[id="resetElements"]
+{
+    width: 45px;
+    height: 45px;
+    padding: 0px;
+    background: url(src/img/reset.png) no-repeat;
+    background-size: 45px 45px;
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+    border: 0;
+    z-index: 5;
+    outline: none;
+    cursor: pointer;
+}
+
+input[id="resetElements"]:hover
+{
+    transition: 0.5s;
+    transform: rotate(180deg);
+}
+
+.foundSubstring
+{
+    color: grey;
+}
